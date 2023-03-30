@@ -1,0 +1,92 @@
+#comp1-header img {
+  width: 100px;
+  height: auto;
+}
+#comp1-container {
+  height: 65vh;
+  width: 90vw;
+  color: white;
+}
+#comp1-container * {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Manrope";
+}
+#comp1-container h1 {
+  font-size: 59px !important;
+  font-weight: 900;
+  margin-bottom: 3vh !important;
+  line-height: 4vh;
+}
+#comp1-container h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px !important;
+}
+#comp1-container h3 {
+  margin-top: 9vh;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#comp1-input {
+  background-color: #fa652b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 10%;
+  margin-top: 5vh;
+  margin-left: 3vh;
+}
+.form-comp-input-field {
+  background-color: transparent;
+  border: 0;
+  outline: none !important;
+  color: #dadada !important;
+  border-bottom: 2px white solid;
+  padding: 1.5vh 1.2vw;
+  font-size: 1rem;
+  font-family: "Manrope";
+  width: 280px;
+  border-radius: 0.1rem;
+  margin-top: vh;
+  margin-left: 1vw;
+  resize: none;
+}
+/*
+.form-comp-input-field::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2F2F2F; }
+  
+.form-comp-input-field::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #FA652B;
+    cursor: pointer; }
+*/
+@media screen and (max-width: 1000px) {
+  #comp1-header img {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #comp1-container h1 {
+    font-size: 2.5rem;
+  }
+  #comp1-container h3 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  #comp1-container h1 {
+    font-size: 2.3rem;
+  }
+  #comp1-container h3 {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .form-comp-input-field {
+    width: 250px;
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* height: 100vh !important; */
+  background: #20242A;
+}
+
+* {
+  font-family: "Manrope";
+}
+
+/* #root {
+  height: 100% !important;
+}
+
+html {
+  height: 100vh !important;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+/* .makeStyles-cardContent-7{
+  flex:1 1 auto !important;
+} */

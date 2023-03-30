@@ -1,0 +1,38 @@
+#not-found-container {
+  background: #0a0a0a;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Manrope";
+  user-select: none;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.not-found-content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  margin: auto;
+}
+.not-found-heading {
+  font-family: "Bebas", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 3.5rem;
+  margin: 2vh 0 1vh 0;
+  letter-spacing: -0.005em;
+}
+.not-found-subtext {
+  margin: 0 0 5vh 0;
+  letter-spacing: 0.02em;
+}
+.not-found-img {
+  margin-top: 5%;
+  /* width: 50%; */
+}

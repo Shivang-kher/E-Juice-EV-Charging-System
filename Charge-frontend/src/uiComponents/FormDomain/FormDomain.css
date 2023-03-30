@@ -1,0 +1,147 @@
+#comp2-container h3 {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  line-height: 4vh;
+  margin-bottom: 0.3rem;
+}
+#comp2-container {
+  height: 65vh;
+  width: 90vw;
+  font-family: "Manrope";
+}
+#domains-container {
+  display: flex;
+  margin-top: 5vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.domain-container {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  padding: 2vh 2%;
+  text-align: center;
+  /* height: 7vh; */
+  margin: 1vh 5vw 3vh 0;
+  border: 1.8232px solid #6DBE45;
+  border-radius: 3.64641px;
+  text-transform: uppercase;
+}
+.domain-container:hover {
+  box-shadow: #6DBE45;
+}
+.selected-domain {
+  background: #6DBE45;
+  box-shadow: #6DBE45;
+}
+#comp2-input {
+  background-color: #6DBE45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 10%;
+  margin-top: 1vh;
+  margin-left: 3vw;
+}
+#error-message {
+  margin-bottom: 3vh;
+  margin-left: 2vw;
+  color: #e92151;
+  font-size: 0.9rem;
+}
+.form-info {
+  width: 35px;
+}
+.comp2-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 992px) {
+  .domain-container {
+    font-size: 0.9rem;
+    width: 26%;
+  }
+  #comp2-container h3 {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .domain-container {
+    font-size: 0.9rem;
+    width: 26%;
+  }
+  #comp2-container h3 {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .domain-container {
+    width: 27%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .domain-container {
+    width: 38%;
+  }
+}
+@media screen and (max-width: 510px) {
+  .domain-container {
+    width: 42%;
+  }
+  .domain-container {
+    font-size: 0.8rem;
+  }
+  .comp2-container {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  #comp2-container h3 {
+    font-size: 1.1rem !important;
+  }
+  .domain-container {
+    width: 43%;
+  }
+  .comp2-container {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 364px) {
+  .domain-container {
+    font-size: 0.75rem;
+  }
+  #domains-container {
+    margin: 3vh 0 2vh 1vw;
+  }
+  .comp2-container {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 323px) {
+  .domain-container {
+    font-size: 0.7rem;
+    margin-bottom: 1.2vh;
+    width: 43%;
+  }
+  #error-message {
+    margin-bottom: 5vh;
+  }
+  #domains-container {
+    margin: 5vh 0 2vh 0;
+  }
+  .comp2-container {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 292px) {
+  .domain-container {
+    width: 42%;
+  }
+}

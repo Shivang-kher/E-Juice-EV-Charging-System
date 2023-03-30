@@ -1,0 +1,25 @@
+#customized-dialog-title {
+  background: linear-gradient(
+    85.89deg,
+    #f8c100 -7.54%,
+    #fa652b 49.63%,
+    #fd2d13 82.47%,
+    #ff0000 108.45%
+  ) !important;
+
+  font-family: "Manrope";
+  font-size: 19.54px;
+  font-weight: 400;
+}
+
+.customized-dialog-title {
+  font-family: "Manrope";
+  font-size: 19.54px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+
+.MuiDialog-paper {
+  border-radius: 21px !important;
+}
+

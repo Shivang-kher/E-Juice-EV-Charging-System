@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+}
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
+.nav-right > * {
+  margin: 1vh 1.5vw;
+}
+
+@media screen and (max-width: 580px) {
+  .nav-right > * {
+    margin: 1vh 6.5vw;
+  }
+}

@@ -1,0 +1,87 @@
+#screen-container {
+  box-sizing: border-box;
+  font-family: "Bebas", sans-serif !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+  user-select: none;
+  width: 100%;
+  background-image: url("../../assets/landing-page-bg.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+#logo {
+  margin-top: 5vh;
+  margin-left: 3vw;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.landing-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+}
+
+.landing-note {
+  text-transform: uppercase;
+  font-family: "Bebas", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 5vh 1vw;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.google-icon{
+  padding-right: 2%;
+}
+/* .landing-brand {
+  width: 40%;
+} */
+
+@media screen and (max-width: 900px) {
+  .landing-content {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  #logo {
+    position: fixed;
+    top: 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  #screen-container {
+    justify-content: flex-start !important;
+  }
+  
+  .landing-brand {
+   margin-top: 10vh;
+  }
+   .landing-content {
+    width: 80%;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+}
