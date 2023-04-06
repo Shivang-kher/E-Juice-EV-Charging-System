@@ -10,5 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^7.5.0"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^1.52.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "razorpay": "^2.8.6",
+    "stripe": "^11.17.0",
+    "uniqid": "^5.4.0"
   }
 }

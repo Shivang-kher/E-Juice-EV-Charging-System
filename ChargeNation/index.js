@@ -4,6 +4,12 @@ const connectToMongo= require("./models/db");
 require('./config/passport.js');
 var cors = require('cors')
 const midd=require('./middleware/authentication');
+const RazorPay = require('razorpay')
+
+const instance = new RazorPay({
+  key_id: "rzp_test_PkLnK7jALJsBvF",
+  key_secret: "eD71E0b1ubXfkrvU25iNrGWq"
+});
 
 const app=express();
 app.use(express.json())
@@ -21,8 +27,10 @@ app.get("/",(req,res) => {
 
 const authRoutes = require("./routes/authentication");
 const isFilledForm = require("./routes/isFilledForm");
+const paymentRoute =  require("./routes/Paymentroutes");
 app.use("/auth", authRoutes);
-app.use("/dashboard",midd, isFilledForm)
+app.use("/dashboard",midd, isFilledForm);
+app.use("/api", paymentRoute)
 
 app.listen(PORT, () => {
   console.log("Server ready at port:", PORT);
