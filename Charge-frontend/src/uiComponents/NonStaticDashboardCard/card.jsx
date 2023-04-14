@@ -105,9 +105,7 @@
 import React, { useState } from "react";
 import { Button, makeStyles, Paper, Typography } from "@material-ui/core";
 import { useCookies } from "react-cookie";
-import { loadStripe } from "@stripe/stripe-js";
 
-const stripePromise = loadStripe("pk_test_51MtWNESBGj2MFLplmbjtYiH11ExCUVsEyhhJXSdfGxjgkr8iiDVEWeT71zxniuutTNH42qWQjr8LbOarvDDTzCfC00HwCrlH86");
 
 const useStyles = makeStyles((theme) => ({
   card: {
