@@ -22,10 +22,10 @@ app.get("/",(req,res) => {
 
 const authRoutes = require("./routes/authentication");
 const isFilledForm = require("./routes/isFilledForm");
-const paymentRoute =  require("./routes/Paymentroutes");
+
 app.use("/auth", authRoutes);
 app.use("/dashboard",midd, isFilledForm);
-app.use("/api", paymentRoute)
+
 
 app.listen(PORT, () => {
   console.log("Server ready at port:", PORT);
