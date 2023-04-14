@@ -11,8 +11,22 @@ Tech Stack:
 Setup:
 1. Download this repo
 2. Type `npm i` to download packages
-3. Create a `.env` file to initialize mongo keys
-4. Then run `npm run dev`
+3. Create a `.env` in the ChargeNation backend folder to initialize mongo and Google OAuth keys
+4. Create a `.env` in the Charge-frontend folder to connect backend url
+5. Then run `npm run dev`
+
+Sample backend .env:
+```
+DB_URL=<YOUR_MONGO_URL>
+GOOGLE_CLIENT_ID=<YOUR_GOOGLE_CLIENT_ID>
+GOOGLE_CLIENT_SECRET=<YOUR_GOOGLE_SECRET>
+TOKEN_SECRET=<TOKENSECRET>
+FRONTEND_URL=<LOCALHOST URL>
+```
+Sample frontend .env:
+```
+REACT_APP_BACKEND_URL=<LOCALHOST BACKEND URL>
+```
 
 Sample Screenshots:
 
